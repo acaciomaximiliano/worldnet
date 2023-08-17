@@ -2,7 +2,7 @@ from django.db import models
 
 class Chats(models.Model):
     author = models.CharField(max_length=250, null=True)
-    sender = models.CharField(max_length=100, null=True)
+    sender = models.CharField(max_length=150, null=True)
     name = models.TextField()
 
 
